@@ -1,0 +1,50 @@
+* {
+    /* как вычисляется высоа */
+    box-sizing: border-box;
+}
+
+/* html, body {
+    height: 100%;
+}*/
+
+quote {
+    display: inline-block;
+}
+
+.main__box{
+    padding: 10px 20px 30px 40px;
+    margin: 40px 30px 20px 10px;
+    border-bottom: 1px red dotted;
+    border-top: 2px red dotted;
+    border-left: 4px red dotted;
+    border-right: 3px red dotted;
+    width:30%;
+    display: inline-block;
+}
+
+.main__box--first {
+    height: 300px;
+    width: 50%;
+    /* display: none;
+    visibility: hidden; */
+}
+
+/* .main__box--first + div:hover,
+.main__box--first + div:active {
+    background: red;
+    color: white;
+    border-bottom: 1px white dotted;
+    border-top: 2px white dotted;
+    border-left: 4px white dotted;
+    border-right: 3px white dotted;
+} */
+
+/* .main__box--first + div:hover, */
+div:first-of-type:hover {
+    background: red;
+    color: white;
+    border-bottom: 1px white dotted;
+    border-top: 2px white dotted;
+    border-left: 4px white dotted;
+    border-right: 3px white dotted;
+}
